@@ -3,8 +3,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gravity"
-version = "0.1.0"
+name = "kagravity"
+version = "0.1.2"
 dependencies = [
     "numba",
     "pint",
