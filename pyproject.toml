@@ -12,4 +12,5 @@ dependencies = [
 license = {text = "MIT"}
 
 [tool.setuptools]
-packages = {find = {where = ["src"]}}
+package-dir = {"" = "src"}
+py-modules = ["gravity"
