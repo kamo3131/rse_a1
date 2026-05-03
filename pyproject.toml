@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gravity"
+version = "0.1.0"
+dependencies = [
+    "numba",
+    "pint",
+]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = {find = {where = ["src"]}}
