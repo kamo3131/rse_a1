@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kagravity"
-dynamic = ["version"]
+version="0.1.4"
 dependencies = [
     "numba",
     "numpy<2.0.0",
